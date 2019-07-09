@@ -11,7 +11,8 @@ module.exports = {
     main: './src/index.ts'
   },
   output: {
-    filename: '[name].js'
+    filename: '[name].js',
+    path: path.resolve(__dirname, '../', 'dist')
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js']
@@ -36,7 +37,7 @@ module.exports = {
       template: './src/template/index.html'
     }),
     new CleanWebpackPlugin({
-      cleanOnceBeforeBuildPatterns: ['dist']
+      cleanOnceBeforeBuildPatterns: [path.resolve(__dirname, '../dist')]
     })
   ]
 }
