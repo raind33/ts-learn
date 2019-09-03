@@ -3,9 +3,7 @@
     "strictNullChecks": true
   },
   "defaultSeverity": "error",
-  "extends": [
-    "tslint:recommended"
-  ],
+  "extends": ["tslint:recommended"],
   "jsRules": {},
   "rules": {
     "array-type": [true, "array"],
@@ -15,7 +13,8 @@
     "semicolon": [true, "never"],
     "space-before-function-paren": [true, "always"],
     "no-console": false,
-    "object-literal-sort-keys": [false]
+    "object-literal-sort-keys": [false],
+    "max-classes-per-file": false
   },
   "rulesDirectory": []
 }
