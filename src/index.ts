@@ -1,3 +1,3 @@
 class Person {
-  public name:string = ''
+  public name:string = '2398889'
 }
