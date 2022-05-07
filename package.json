@@ -4,7 +4,7 @@
   "description": "专栏学习",
   "main": "index.js",
   "scripts": {
-    "watch": "nodemon --watch src/ -e ts --exec ts-node ./src/index.ts",
+    "watch": "nodemon --watch src/ -e ts --exec ts-node ./src/test.ts",
     "dev": "parcel ./index.html",
     "build": "tsc"
   },
