@@ -25,6 +25,6 @@
   "devDependencies": {
     "cross-env": "^5.2.0",
     "parcel": "^2.4.0",
-    "ts-node": "^10.7.0"
+    "ts-node": "^10.8.1"
   }
 }
